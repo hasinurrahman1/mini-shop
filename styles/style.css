@@ -11,13 +11,12 @@
 
 .nav ul li{
 	float:left;
-    /* padding-left: 30px;   */
 }
 
 .nav ul li a{
 	text-decoration:none;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 21px;
 	color: #ffffffff;
 	display:block; 
 	font-family:arial;
@@ -35,7 +34,7 @@
 }
 
 .nav ul li a:hover{
-	color:#ffff00;
+	color: #0000ff;
 }
 
 .nav ul li{
@@ -59,4 +58,208 @@
 /* categories navbar contact */
 .contact{
 	background-color: #ff0000;
+}
+
+/* footer part */
+.footer {
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.footer-details {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-title {
+    width: 520px;
+	padding-top: 70px;
+}
+
+.footer-title h2 {
+    font-size: 26px;
+	color: #0000ff;
+}
+
+.footer-title p {
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 24px;
+}
+
+.footer-title #email {
+    margin-top: 20px;
+    padding: 6px 80px 6px 4px;
+}
+
+#email:focus {
+    outline: 0;
+}
+
+.footer-title .submit-btn {
+    background-color: #0000ff;
+	color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 7px 25px;
+}
+
+.company-title {
+    width: 150px;
+    margin-left: 90px;
+	padding-top: 70px;
+}
+
+.company-title h3 {
+    font-size: 26px;
+	font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.company-title a {
+    text-decoration: none;
+    font-size: 18.5px;
+    line-height: 2.1;
+    color: #ffffff;
+}
+
+.company-title a:hover {
+    color: #0000ff;
+}
+
+.link-title {
+    width: 200px;
+    margin-left: 30px;
+	padding-top: 70px;
+}
+
+.link-title h3 {
+    font-size: 26px;
+	font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.link-title a {
+    text-decoration: none;
+    font-size: 18.5px;
+    line-height: 2.1;
+    color: #ffffff;
+}
+
+.link-title a:hover {
+    color: #0000ff;
+}
+
+.contact-section {
+    width: 220px;
+	padding-top: 70px;
+}
+
+.contact-section h3 {
+    font-size: 26px;
+	font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.contact-section p {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 2.1;
+    color: #ffffff;
+}
+
+.contact-section p:hover {
+    color: #0000ff;
+}
+
+.contact-section i {
+    font-size: 15px;
+    color: #0000ff;
+}
+
+hr {
+    width: 1200px;
+    height: 1px;
+    background-color: #0c0d0e;
+    border: none;
+    margin: 0 auto;
+}
+
+.social-icon {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.social-icon a {
+    font-size: 28px;
+    color: #6C6C6C;
+    padding: 7px;
+}
+
+.social-icon a:hover{
+	color: #0000ff;
+}
+
+.social-part p {
+    font-size: 16.5px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.social-part p:hover {
+    color: #0000ff;
+}
+
+.social-part p span{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/* responsive part */
+@media screen and (max-width: 576px) {
+    .footer-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: auto;
+    }
+
+    .footer-title {
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .company-title {
+        width: 210px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .link-title {
+        width: 210px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .contact-section {
+        width: 220px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+.product{
+	width: 1200px;
 }
