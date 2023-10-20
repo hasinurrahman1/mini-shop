@@ -1,63 +1,71 @@
 /* categories navbar */
-.nav{
-	height:50px;
+.nav {
+    height: 50px;
+    padding-left: 95px;
 }
 
-.nav ul{
-	list-style-type:none;
-	z-index:999;
+.nav ul {
+    list-style-type: none;
+    z-index: 999;
     padding-top: 9px;
 }
 
-.nav ul li{
-	float:left;
+.nav ul li {
+    float: left;
 }
 
-.nav ul li a{
-	text-decoration:none;
+.nav ul li a {
+    text-decoration: none;
     font-weight: 400;
     font-size: 21px;
-	color: #ffffffff;
-	display:block; 
-	font-family:arial;
+    color: #ffffffff;
+    display: block;
+    font-family: arial;
+    margin-bottom: 12px;
 }
 
-.nav ul li ul li a{
-    padding: 2.5px;
+.nav ul li ul li a {
     color: #000000;
     font-size: 15px;
 }
 
-.nav ul li ul li a:hover{
+.nav ul li ul li a:hover {
     color: #0000ff;
     font-weight: bold;
 }
 
-.nav ul li a:hover{
-	color: #0000ff;
+.nav ul li a:hover {
+    color: #0000ff;
 }
 
-.nav ul li{
-	position:relative;
+.nav ul li {
+    position: relative;
 }
 
-.nav ul li ul{
-	position:absolute;left:-99999px;
+.nav ul li ul {
+    position: absolute;
+    left: -99999px;
+    height: 450px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-top: none;
+    padding-left: 20px;
+    overflow-y: scroll;
 }
 
-.nav ul li:hover ul{
-	left:0px;
+.nav ul li:hover ul {
+    left: 0px;
 }
 
-.nav ul li ul li{
-	float:none;
-	border-right:none;
-	width:200px;
+.nav ul li ul li {
+    float: none;
+    border-right: none;
+    width: 200px;
 }
 
 /* categories navbar contact */
-.contact{
-	background-color: #ff0000;
+.contact {
+    background-color: #ff0000;
 }
 
 /* footer part */
@@ -76,12 +84,12 @@
 
 .footer-title {
     width: 520px;
-	padding-top: 70px;
+    padding-top: 70px;
 }
 
 .footer-title h2 {
     font-size: 26px;
-	color: #0000ff;
+    color: #0000ff;
 }
 
 .footer-title p {
@@ -101,7 +109,7 @@
 
 .footer-title .submit-btn {
     background-color: #0000ff;
-	color: #ffffff;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     padding: 7px 25px;
@@ -110,12 +118,12 @@
 .company-title {
     width: 150px;
     margin-left: 90px;
-	padding-top: 70px;
+    padding-top: 70px;
 }
 
 .company-title h3 {
     font-size: 26px;
-	font-weight: 500;
+    font-weight: 500;
     color: #ffffff;
     margin-bottom: 25px;
 }
@@ -134,12 +142,12 @@
 .link-title {
     width: 200px;
     margin-left: 30px;
-	padding-top: 70px;
+    padding-top: 70px;
 }
 
 .link-title h3 {
     font-size: 26px;
-	font-weight: 500;
+    font-weight: 500;
     color: #ffffff;
     margin-bottom: 25px;
 }
@@ -157,12 +165,12 @@
 
 .contact-section {
     width: 220px;
-	padding-top: 70px;
+    padding-top: 70px;
 }
 
 .contact-section h3 {
     font-size: 26px;
-	font-weight: 500;
+    font-weight: 500;
     color: #ffffff;
     margin-bottom: 25px;
 }
@@ -203,8 +211,8 @@ hr {
     padding: 7px;
 }
 
-.social-icon a:hover{
-	color: #0000ff;
+.social-icon a:hover {
+    color: #0000ff;
 }
 
 .social-part p {
@@ -220,9 +228,9 @@ hr {
     color: #0000ff;
 }
 
-.social-part p span{
-	font-size: 16px;
-	font-weight: 300;
+.social-part p span {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 /* responsive part */
@@ -261,6 +269,6 @@ hr {
 }
 
 /* product */
-.product{
-	width: 1160px;
+.product {
+    width: 1160px;
 }
